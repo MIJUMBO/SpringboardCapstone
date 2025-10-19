@@ -1,0 +1,19 @@
+cd /c/Users/MICHA/Desktop/Projects/SpringboardCapstone
+
+# 🧭 1. Navigate to your project folder
+cd ~/Desktop/Projects/SpringboardCapstone
+
+# ✅ 2. Check Git status — see what changed
+git status
+
+# ➕ 3. Stage all modified or new files (you can replace . with a specific filename if needed)
+git add .
+
+# 💬 4. Commit your changes with a clear message
+git commit -m "Updated Jupyter Notebook with new analysis and findings"
+
+# 🚀 5. Push the committed changes to your GitHub fork (origin)
+git push origin main
+
+# 🧪 6. Verify push success
+git status
