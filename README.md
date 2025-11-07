@@ -86,18 +86,6 @@ The goal is to bridge **business strategy** and **data science**, demonstrating 
 - **Financial Analysts:** Profitability modeling and forecasting.  
 - **Data Science Team:** Model development, validation, and insight generation.  
 
----
-
-## 🗂️ **Repository Structure**
-Big_Mountain_Resort_Case/
-│
-├── data/ # Cleaned and raw datasets
-├── notebooks/ # EDA, clustering, and modeling notebooks
-├── reports/ # Executive summary and presentation slides
-├── visuals/ # Charts and visual assets
-├── README.md # Project documentation (this file)
-└── requirements.txt # Dependencies
-
 
 ---
 
@@ -112,6 +100,18 @@ The **Big Mountain Resort Case** demonstrates how **data analytics supports stra
 **Email:** your.email@example.com  
 
 
+
+### 📁 Project Directory Structure
+
+```bash
+Big_Mountain_Resort_Case/
+│
+├── data/                  # Cleaned and raw datasets
+├── notebooks/             # EDA, clustering, and modeling notebooks
+├── reports/               # Executive summary and presentation slides
+├── visuals/               # Charts and visual assets
+├── README.md              # Project documentation (this file)
+└── requirements.txt       # Dependencies
 
 
 
