@@ -63,15 +63,18 @@ The goal is to bridge **business strategy** and **data science**, demonstrating 
 | **Documentation & Presentation** | Jupyter Notebook, PowerPoint |
 
 ---
+### 📁 Project Directory Structure
 
-## 📈 **Results Summary**
+```bash
+Big_Mountain_Resort_Case/
+│
+├── data/                  # Cleaned and raw datasets
+├── notebooks/             # EDA, clustering, and modeling notebooks
+├── reports/               # Executive summary and presentation slides
+├── visuals/               # Charts and visual assets
+├── README.md              # Project documentation (this file)
+└── requirements.txt       # Dependencies
 
-| Aspect | Finding |
-|--------|----------|
-| **Optimal Cluster Count** | 3 (based on elbow method) |
-| **Cluster Insights** | Segmented resorts by capacity, amenities, and pricing |
-| **Model Accuracy (R²)** | ~0.82 |
-| **Business Insight** | Big Mountain’s modeled price > actual price ⇒ potential underpricing |
 
 ---
 
