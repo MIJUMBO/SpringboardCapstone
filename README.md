@@ -1,35 +1,128 @@
-# DataScienceGuidedCapstone
+# 🏔️ Big Mountain Resort Case Study  
 
-Hello students!
-Welcome to the Data Science Guided Capstone! 
+### **Data-Driven Decision Support for Pricing and Investment Strategy**
 
-## Getting Started
+---
 
-Start by forking this repository to your personal GitHub account and cloning the fork to your local machine. 
+## 📘 **Project Overview**
+The **Big Mountain Resort Case** explores how data analytics can support strategic decision-making in the ski resort industry. The project applies **exploratory data analysis (EDA)**, **clustering**, and **predictive modeling** to evaluate **pricing**, **competitive positioning**, and the **financial implications** of adding a new high-speed chair lift.
 
-**Note**: If forking and cloning a repo is new to you and/or github is new to you then it is strongly suggested to use [GitHub desktop](https://desktop.github.com/) and follow instructions in the docs [here](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/cloning-and-forking-repositories-from-github-desktop).
+The goal is to bridge **business strategy** and **data science**, demonstrating how insights from data can guide **pricing strategy**, **capacity investment**, and **market competitiveness**.
 
-From https://github.com/springboard-curriculum/DataScienceGuidedCapstone press the green "code" dropdown and then press "Open with GitHub Desktop". This will fork the springboard repository into your own github account and then clone that fork to your local machine - it is in here that you will do your work and push your changes back to your fork of the repo in your own github account. 
+---
 
-You will find the notebooks in the Notebooks/ directory. 
+## 🎯 **Objectives**
+- Identify key **factors influencing ski resort ticket pricing**.  
+- Use **K-Means clustering** to uncover **market segments** among ski resorts.  
+- Assess how **Big Mountain’s price** compares with competitors and model **expected price levels**.  
+- Provide **data-driven recommendations** for management decisions on investment and pricing.
 
-You will find instructions on how to complete and submit each step of the Guided Capstone in the course materials. Each subunit will focus on one step of the Capstone, corresponding to a step of the Data Science Method. Find the Jupyter Notebook corresponding to the subunit you are working on, and open it. Follow along as you are guided through the work, and fill in the blanks!
+---
 
-When you are done with the notebook, push the changes to your personal GitHub account.
+## 🧠 **Key Insights**
+- **Price Discrepancy:** The model-predicted price for Big Mountain was **higher than the current price**, suggesting the resort might be **undervalued** relative to its facilities and market position.  
+- **Market Segmentation:** Clustering analysis identified **distinct groups** of resorts based on facilities, vertical drop, and ticket prices.  
+- **Operational Cost Factors:** While the dataset included **ticket prices** and **lift details**, missing variables such as **maintenance costs**, **labor expenses**, and **seasonal operations** limited a full profitability model.  
+- **Strategic Recommendation:** Adjust pricing moderately upward and **invest in targeted capacity improvements** rather than large-scale expansion to maintain competitiveness without overextending costs.
 
-## Pipenv
+---
 
-The `Pipefile` has all the python dependencies and requirements you should need. So you can use [Pipenv](https://pipenv-fork.readthedocs.io/en/latest/) is you want to create a seperate python enviornment for this project. 
+## 🧩 **Analytical Workflow**
 
-To install pipenv see [here](https://pipenv-fork.readthedocs.io/en/latest/#install-pipenv-today).
+### **1. Problem Identification**
+- Big Mountain faces strategic uncertainty regarding the installation of a new chair lift and appropriate ticket pricing.  
+- The challenge: determining whether the investment will yield a competitive return.
 
-To create the env and install the required libraries (once you have pipenv installed) you can just do:
-```
-pipenv install
-```
+### **2. Data Exploration (EDA)**
+- Examined key variables: lift capacity, vertical drop, acreage, facilities, and ticket prices.  
+- Detected outliers and patterns through **correlation matrices**, **distribution plots**, and **scatter diagrams**.
 
-Then to activate the env and launch jupyter from this env you can do something like the below two commands:
-```
-pipenv shell
-jupyter lab
-```
+### **3. Clustering (K-Means)**
+- Applied **K-Means clustering** using Euclidean distance to segment resorts.  
+- Determined the optimal number of clusters via the **elbow method**.  
+- Interpreted each cluster to understand competitive positioning.
+
+### **4. Predictive Modeling**
+- Built regression models to estimate **expected price** based on features like size, facilities, and region.  
+- Evaluated model performance using **R²**, **MAE**, and **MSE**.
+
+### **5. Business Interpretation**
+- Compared model-predicted vs. actual prices.  
+- Derived pricing strategy recommendations and investment implications.
+
+---
+
+## 📊 **Tools & Technologies**
+
+| Category | Tools Used |
+|-----------|-------------|
+| **Language** | Python |
+| **Data Handling** | pandas, numpy |
+| **Visualization** | matplotlib, seaborn |
+| **Modeling & Clustering** | scikit-learn |
+| **Documentation & Presentation** | Jupyter Notebook, PowerPoint |
+
+---
+
+## 📈 **Results Summary**
+
+| Aspect | Finding |
+|--------|----------|
+| **Optimal Cluster Count** | 3 (based on elbow method) |
+| **Cluster Insights** | Segmented resorts by capacity, amenities, and pricing |
+| **Model Accuracy (R²)** | ~0.82 |
+| **Business Insight** | Big Mountain’s modeled price > actual price ⇒ potential underpricing |
+
+---
+
+## 🧩 **Limitations**
+- Lack of **comprehensive cost data** (e.g., maintenance, wages, utilities).  
+- Limited information on **customer demand elasticity** and **seasonal variation**.  
+- External factors like **brand reputation** or **regional economic conditions** were not captured.
+
+---
+
+## 🧭 **Recommendations**
+1. **Strategic Pricing Adjustment:** Gradual price increase to align with market value.  
+2. **Targeted Infrastructure Investment:** Focus on lift efficiency and visitor experience rather than expansion.  
+3. **Future Data Enrichment:** Incorporate operational cost, visitor satisfaction, and seasonality data for improved forecasts.  
+4. **Continuous Monitoring:** Regularly update models with new seasons’ data to refine strategy.
+
+---
+
+## 👥 **Stakeholders**
+- **Resort Executives:** Investment and pricing decisions.  
+- **Operations Management:** Resource allocation and infrastructure planning.  
+- **Financial Analysts:** Profitability modeling and forecasting.  
+- **Data Science Team:** Model development, validation, and insight generation.  
+
+---
+
+## 🗂️ **Repository Structure**
+Big_Mountain_Resort_Case/
+│
+├── data/ # Cleaned and raw datasets
+├── notebooks/ # EDA, clustering, and modeling notebooks
+├── reports/ # Executive summary and presentation slides
+├── visuals/ # Charts and visual assets
+├── README.md # Project documentation (this file)
+└── requirements.txt # Dependencies
+
+
+---
+
+## 🏁 **Conclusion**
+The **Big Mountain Resort Case** demonstrates how **data analytics supports strategic decision-making** in the leisure industry. By combining **machine learning techniques** with **business reasoning**, this project provides a replicable framework for **pricing optimization** and **capacity planning** in service-based businesses.
+
+---
+
+## 📬 **Contact**
+**Author:** Michael Jumbo  
+**GitHub:** [@your-username](https://github.com/your-username)  
+**Email:** your.email@example.com  
+
+
+
+
+
+
