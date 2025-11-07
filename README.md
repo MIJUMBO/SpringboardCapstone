@@ -96,8 +96,8 @@ The **Big Mountain Resort Case** demonstrates how **data analytics supports stra
 
 ## 📬 **Contact**
 **Author:** Michael Jumbo  
-**GitHub:** [@your-username](https://github.com/your-username)  
-**Email:** your.email@example.com  
+**GitHub:** [@your-username](https://github.com/MIJUMBO)  
+**Email:** michael4jumbo@gmail.com 
 
 
 
