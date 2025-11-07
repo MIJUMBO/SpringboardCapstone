@@ -63,20 +63,7 @@ The goal is to bridge **business strategy** and **data science**, demonstrating 
 | **Documentation & Presentation** | Jupyter Notebook, PowerPoint |
 
 ---
-### 📁 Project Directory Structure
 
-```bash
-Big_Mountain_Resort_Case/
-│
-├── data/                  # Cleaned and raw datasets
-├── notebooks/             # EDA, clustering, and modeling notebooks
-├── reports/               # Executive summary and presentation slides
-├── visuals/               # Charts and visual assets
-├── README.md              # Project documentation (this file)
-└── requirements.txt       # Dependencies
-
-
----
 
 ## 🧩 **Limitations**
 - Lack of **comprehensive cost data** (e.g., maintenance, wages, utilities).  
